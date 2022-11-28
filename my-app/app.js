@@ -3,6 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import wine from "./frontend.js";
+import Home from "./Home";
+import Search from "./Search";
+import CustomerFav from "./CustomerFav";
 
 // function App() {
 //   return (
@@ -17,7 +20,11 @@ import wine from "./frontend.js";
 
 export default function App() {
  return <React.Fragment>
+   <Home/>
+   <CustomerFav/>
+   <Search/>
    <wine/>
+   
  </React.Fragment>;
 }
 

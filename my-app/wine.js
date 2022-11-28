@@ -1,12 +1,11 @@
 import React from "react";
 import axios from "axios";
 
-
 export default class wine extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container">
+        {/* <div className="container">
           <ul className="nav nav-tabs">
             <li className="nav-item">
               <button className="nav-link active" aria-current="page">
@@ -14,10 +13,10 @@ export default class wine extends React.Component {
               </button>
             </li>
             <li className="nav-item">
-              <button className="nav-link">Add New Wine</button>
+              <button className="nav-link">Products</button>
             </li>
           </ul>
-        </div>
+        </div> */}
         {/* 1st picture of wines in inventory */}
         <div className="card" style="width: 18rem;">
           <img className="card-img-top" src="moscato.jpg" alt="Card image cap"></img>
